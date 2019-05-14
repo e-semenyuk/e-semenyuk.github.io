@@ -1,0 +1,24 @@
+.search {
+  &__container {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    min-width: 250px;
+  }
+
+  &__result {
+    position: absolute;
+    top: 60px;
+    background-color: rgba($color: #292929, $alpha: .98);
+  }
+
+  &__input {
+    color: #ffc107;
+  }
+
+  &__abbreviation {
+    color: #ffc107;
+    margin-right: 5px;
+  }
+}
+

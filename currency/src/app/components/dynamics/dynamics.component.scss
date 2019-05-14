@@ -1,0 +1,16 @@
+.dynamics {
+    &__container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: #FFC107;
+    }
+
+    &__button {
+        position: absolute;
+        right: 20px;
+        top: 0;
+        color: #292929;
+        font-weight: 600;
+    }
+}

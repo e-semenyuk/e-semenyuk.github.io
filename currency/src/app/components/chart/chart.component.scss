@@ -1,0 +1,21 @@
+.chart {
+    &__container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: #FFC107;
+        width: 640px;
+        height: 400px;
+    }
+
+    &__datepickers {
+        display: flex;
+        flex-direction: row;
+    }
+
+    &__datepicker {
+        &:first-child {
+            margin-right: 100px;
+        }
+    }
+}
